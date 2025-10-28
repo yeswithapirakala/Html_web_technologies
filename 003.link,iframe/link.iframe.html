@@ -1,0 +1,63 @@
+<!-- projectName → folder
+→ index.html
+→ assets/public (imgs, videos ,......)
+
+2 types 
+1.	Absolute 
+2.	Relative
+a.	/ → selecting a folder or file
+b.	./ → selecting a folder or file (first)
+c.	../ → exit from a folder 
+
+Links:
+Tag name: a (anchor)
+Attr: href , target --> 
+
+
+<!-- 1.	Linking to external page: this is the any website link 
+ that is in the browser(external link)-->
+<a href="https://shop.weverse.io/en/home">weverse shop</a>
+<br>
+
+<!-- 2.linking to internal page: this is the internal file tha is present in 
+ the same folder with the current file -->
+
+  <a href="./basicstags.html">skills</a> 
+  <br>
+
+<!-- this is the file that is not present in the folder if you open the folder it shows 
+  Your file couldn’t be accessed
+It may have been moved, edited, or deleted.
+ERR_FILE_NOT_FOUND -->
+  <a href="./projects.html">projects</a> 
+<br>
+
+<!-- the image is from the same folder we used ./ -->
+<!-- 3.Linking to a file (image, pdf ….) -->
+ <a href="./superbook.jpg">superbook image</a>
+ <br>
+<!--4.	Downloading -->
+ <a href="./superbook.jpg" download="superbooktelugu.jpg">superbook image download</a>
+  <br>
+<!-- → must need server (live server)
+→ install from ext tab 
+5.	Linking to page region -->
+<a href="#skills">skills click here!(you will be navitaed to skills region)</a>
+<br><br>
+<p style="font-size:100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam facere cumque dolorum eos odit aperiam cupiditate id, veniam, perferendis quod nemo vero, placeat in enim ea quibusdam libero doloribus corrupti!</p>
+<p id="skills">
+     skills region
+</p>
+
+<!--⇒target=”_blank” ⇒ to open in new tab
+Iframe:
+→ used to integrate or embed a page-->
+<!-- video -->
+ <a href="https://youtu.be/DbXMjAYSa68?si=-1sxHbzCnE6S7iOk" target="_blank">youtube video of butter song</a>
+<!-- <iframe src="./basicstags.html" frameborder="0" style="width: 300px;height: 300px;"></iframe>
+
+<a href="./basicstags.html" target="output">skills</a>
+    <a href="./basicstags.html" target="output">projects</a> <br>
+
+    <iframe src="./welcome.html" frameborder="1" name="output"></iframe>  -->
+

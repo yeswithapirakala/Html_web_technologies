@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="0" cellspacing="0">
+    <!-- tr->table row
+         th->table head
+         td->table data   -->
+         <tr>
+            <th>Sno.</th>
+            <th>Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Doe</td>
+            <td>24</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- rowspan,colspan -->
+     <!-- rowspan: The rowspan attribute in HTML specifies how many rows a table cell (<td> or <th>) should span vertically
+        colspan:It merges a cell across multiple columns, so the cell stretches wider to occupy the combined width.
+        It' used in <td> (data cells) or <th> (header cells) in a table row. -->
+    <table border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <th rowspan="2">sno</th>
+            <th colspan="2">Name</th>
+            <th rowspan="2">age</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>Doe</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>24</td>
+        </tr>
+    </table>
+    <!-- list -->
+    <!--Ordered List (<ol>)
+    Displays items in a numbered or lettered sequence.
+    The order of items matters.
+    Each list item is wrapped in <li> tags.
+    You can customize numbering styles (numbers, letters, roman numerals). -->
+    </ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <!-- Unordered List (<ul>)
+    Displays items with bullet points.
+    The order of items does not matter.
+    Each list item is wrapped in <li> tags.-->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <!-- Description List (<dl>)
+    Used for terms and their descriptions.
+    Contains <dt> for the term and <dd> for the description. -->
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+</body>
+</html>
